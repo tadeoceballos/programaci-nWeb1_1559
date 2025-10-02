@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Ceballos Zamora Tadeo Aaron">
+    <title>Tarea4(Media y tablas)</title>
+</head>
+<body>
+    <!--Etiqueta para imagen externa-->
+    <!--Alt tiene peso semántico, le da descripción de lo que tiene la imagen aún si no la puede ver -->
+    <p>Esta imágen es de Miku, una vocaloid</p>
+    <img src="https://www.nippon.com/es/ncommon/contents/japan-topics/560508/560508.jpg" alt="vocaloid">
+
+    <p>Esta imagen es interna de un Helldriver, arriba la democracia</p>
+    <img src="imagenes/Helldivers_2.jpg" alt="arriba la democracia " width=" 500px" height="500px">
+
+
+    <!--Etiquetas de video-->
+    <!--Width y height deberían modificarse con css-->
+    <video src="media/Daft Punk - Digital Love.mp4" controls width="500px" height="500px"></video>
+    <video src="media/videoplayback.mp4" controls loop width="250px" height="250px"></video>
+
+     <!--Etiqueta de audio-->
+      <p>Pense que yo te avia olvidado</p>
+    <audio src="media/Pensé que yo te había olvidado  (niño cantando) [Letra].mp3" controls ></audio>
+        
+    <!--Tablas HTML-->
+    <!--tr es table row que sire para agregar las filas-->
+    <!--th es para los títulos de las columnas-->
+    <!--td es para los datos de las colmnas-->
+    <h2>TABLAS HTML</h2>
+         <table border="5px">
+            <caption>Países</caption>
+            <tr>
+                <th>País </th>
+                <th>Capital </th>
+                <th>Lengua</th>
+                <th>Continente</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Corea del sur</td>  
+                <td>Seoul</td>
+                <td>Coreano</td>
+                <td>Asiático</td>
+                <td>Itaewon</td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>  
+                <td>Londres</td>
+                <td>Inglés</td>
+                <td>Europeo</td>
+                <td>Oxford</td>
+            </tr>
+             <tr>
+                <td>Tailandia</td>  
+                <td>Bangkok</td>
+                <td>Tailandés</td>
+                <td>Asiático</td>
+                <td>Chiang mai</td>
+            </tr>
+             <tr>
+                <td>Italia</td>  
+                <td>Roma</td>
+                <td>Italiano</td>
+                <td>Europa</td>
+                <td>Venecia</td>
+            </tr>
+            <tr>
+                <td>Suiza</td>  
+                <td>Berna</td>
+                <td>Aleman</td>
+                <td>Europa</td>
+                <td>Zúrich</td>
+            </tr>
+        </table>
+         <!--Tablas con celdas fusionadas HTML-->
+         <!--rowspan junta dos filas-->
+         <!--colspan junta dos columnas-->
+         <hr>
+         <table border="1px">
+            <caption>Autos</caption>
+            <tr>
+                <th rowspan="2">Modelo</th>
+                <th colspan="2">Precio</th>
+            </tr>
+            <tr>
+                <th>Nuevo</th>
+                <th>Usado</th>
+            </tr>
+            <tr>
+                <td>Ferrari Italia</td>
+                <td>$10,000,000</td>
+                <td>$5,000,000d </td>
+            </tr>
+         </table>
+
+         <!--Tabla de horario-->
+        <hr>
+
+        <table border = "5px">
+            <caption>Horario</caption>
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>8:00-9:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Música</td>
+                <td></td>
+                <td rowspan="2">Matemáticas</td>
+            </tr>
+            <tr>
+                <td>9:00-10:00</td>
+                <td>Inglés</td>
+                <td>Inglés</td>
+                <td>E.Física</td>
+            </tr>
+            <tr>
+                <td>10:00-10:30</td>
+                <td colspan="5" bgcolor="Cyan">Recreo</td>
+            </tr>
+            <tr>
+                <td>10:30-11:30</td>
+                <td>E.Física</td>
+                <td>Valenciano</td>
+                <td rowspan="2">Lengua</td>
+                <td>Informática</td>
+                <td>Inglés</td>
+            </tr>
+            <tr>
+                <td>11:30-12:30</td>
+                <td>Música</td>
+                <td>E.Física</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Informática</td>
+            </tr>
+            <tr>
+                <td>12:30-13:30</td>
+                <td></td>
+                <td>Informática</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</body>
+</html>
